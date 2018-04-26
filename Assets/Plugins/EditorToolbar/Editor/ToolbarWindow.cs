@@ -34,8 +34,6 @@ namespace FantasticYes.Tools
 				// Skip types that are already in the list or not properly defined
 				if (m_controls.Find (x => x.name == "" || x.name == attribute.Name))
 				{
-					Debug.LogWarning ("[EditorToolbar] Duplicate or invalid toolbar attribute name: " + attribute.Name);
-
 					continue;
 				}
 
